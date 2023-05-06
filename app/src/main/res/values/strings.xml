@@ -25,4 +25,9 @@
     <string name="hipoxia">Hipoxia</string>
     <string name="result">Result</string>
     <string name="temp">Temp</string>
+    <string name="pleaseLogin">Login</string>
+    <string name="userName">Username</string>
+    <string name="Password">Password</string>
+    <string name="login">Login</string>
+    <string name="createAccount">Register</string>
 </resources>

@@ -1,12 +1,11 @@
 package com.example.arduinoapps.room
 
 import android.content.Context
-import androidx.room.Database
-import androidx.room.Room
-import androidx.room.RoomDatabase
+import androidx.room.*
 import com.example.arduinoapps.model.History
 
 @Database(entities = [History::class], version = 1)
+@TypeConverters(Converter::class)
 abstract class MyDatabase : RoomDatabase(){
     abstract fun historyDao():HistoryDao
 
